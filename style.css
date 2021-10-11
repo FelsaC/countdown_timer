@@ -16,7 +16,7 @@ body {
 
 main {
     background-color: var(--color3);
-    padding: 50px;
+    padding: 50px 10px;
     margin: 40px auto;
     max-width: 800px;
     min-width: 200px;
@@ -25,13 +25,13 @@ main {
 }
 
 .date_time_labels{
-    font-size: 50px;
+    font-size: 20px;
     color: var(--color1);
     text-shadow: 1px 1px #2f353be5;
+    margin: 10px auto;
 }
 
 #event {
-    border: 1px solid var(--color3);
     background-color: var(--color1);
     color: var(--color3);
     font-size: 30px;
@@ -42,6 +42,7 @@ main {
     color: var(--color3);
     box-shadow: 2px 2px 20px 2px var(--color2) inset;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.438);
+    border: 1px solid var(--color3);
 
 }
 
