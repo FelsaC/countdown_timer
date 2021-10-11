@@ -1,4 +1,67 @@
+:root {
+    --color1: #738290;
+    --color2: #A1B5D8;
+    --color3: #FFFCF7;
+}
+
 * {
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: var(--color1);
+    padding: 5px;
+}
+
+main {
+    background-color: var(--color3);
+    padding: 50px;
+    margin: 40px auto;
+    max-width: 800px;
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 10px 10px 20px 2px var(--color2), 10px 10px 0 0 var(--color2);
+}
+
+#label_date {
+    font-size: 50px;
+    color: var(--color1);
+    text-shadow: 1px 1px #2f353be5;
+}
+
+#event {
+    border: 1px solid var(--color3);
+    background-color: var(--color1);
+    color: var(--color3);
+    font-size: 30px;
+}
+
+.light_and_font_effect {
+    background-color: var(--color1);
+    color: var(--color3);
+    box-shadow: 2px 2px 20px 2px var(--color2) inset;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.438);
+
+}
+
+.screen {
+    height: 80px;
+    display:inline-block;
+    font-size: 60px;
+}
+
+.clock_days {
+    min-width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.clock_number {
+
+    width: 120px;
+    margin: 5px;
+}
+
+
+

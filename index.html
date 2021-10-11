@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label for="event">Event</label>
-    <input type="date" id id="event">
-    
-    <section>
-        <div id="days"   ></div>
-        <div id="hours"  ></div>
-        <div id="minutes"></div>
-        <div id="seconds"></div>
-    </section>
+    <main>
+        <label id="label_date" for="event">Event</label>
+        <input type="date" id="event" class="light_and_font_effect">
+        
+        <section>
+            <div class="light_and_font_effect clock_days   screen" id="days"    >0000</div>
+            <div class="light_and_font_effect clock_number screen" id="hours"   >00</div>
+            <div class="light_and_font_effect clock_number screen" id="minutes" >00</div>
+            <div class="light_and_font_effect clock_number screen" id="seconds" >00</div>
+        </section>
+    </main>
 </body>
 </html>
