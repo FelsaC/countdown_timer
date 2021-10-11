@@ -9,8 +9,14 @@
 </head>
 <body>
     <main>
-        <label id="label_date" for="event">Event</label>
-        <input type="date" id="event" class="light_and_font_effect">
+        <p id="now"></p>
+        <section>
+                <label id="label_date" class="date_time_labels" for="event">Event date</label>
+                <input type="datetime-local" id="event_date" 
+                class="light_and_font_effect date_time_labels"
+                onchange="updateEventDate()">
+                
+        </section>
         
         <section>
             <div class="light_and_font_effect clock_days   screen" id="days"    >0000</div>
@@ -19,5 +25,6 @@
             <div class="light_and_font_effect clock_number screen" id="seconds" >00</div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

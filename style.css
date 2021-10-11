@@ -24,7 +24,7 @@ main {
     box-shadow: 10px 10px 20px 2px var(--color2), 10px 10px 0 0 var(--color2);
 }
 
-#label_date {
+.date_time_labels{
     font-size: 50px;
     color: var(--color1);
     text-shadow: 1px 1px #2f353be5;
