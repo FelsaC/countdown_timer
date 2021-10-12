@@ -13,8 +13,12 @@ let clockMinutes = document.querySelector("#minutes");
 let clockSeconds = document.querySelector("#seconds");
 
 //refresh each second
-let OneSecondInterval = setInterval(function () {updateTimer(currentDate, eventDate);
-    updateCurrentDate()}, 1000)
+let OneSecondInterval = setInterval(
+    function () {
+        updateTimer(currentDate, eventDate);
+        updateCurrentDate()
+    }
+    , 1000)
 ;
 
 function updateCurrentDate() {

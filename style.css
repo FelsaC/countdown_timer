@@ -17,7 +17,7 @@ body {
 main {
     background-color: var(--color3);
     padding: 50px 10px;
-    margin: 40px auto;
+    margin: 80px auto;
     max-width: 800px;
     min-width: 200px;
     text-align: center;
@@ -46,9 +46,13 @@ main {
 
 }
 
+
+.complete_screen {
+    display:inline-block;
+}
+
 .screen {
     height: 80px;
-    display:inline-block;
     font-size: 60px;
 }
 
@@ -56,6 +60,7 @@ main {
     min-width: 120px;
     padding-left: 5px;
     padding-right: 5px;
+    margin: 5px;
 }
 
 .clock_number {
